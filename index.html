@@ -5,4 +5,8 @@
         function filledCell(cell) {
           return cell !== '' && cell != null;
         }
+        
+function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
 
