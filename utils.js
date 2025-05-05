@@ -5,3 +5,7 @@ function setProgress(message) {
 function clearProgress() {
   document.getElementById('progress').textContent = '';
 }
+
+function showOutput(text) {
+  document.getElementById('output').textContent = text;
+}
