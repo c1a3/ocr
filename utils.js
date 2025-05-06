@@ -9,3 +9,7 @@ function clearProgress() {
 function showOutput(text) {
   document.getElementById('output').textContent = text;
 }
+
+function clearOutput() {
+  document.getElementById('output').textContent = '';
+}
