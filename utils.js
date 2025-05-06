@@ -13,3 +13,8 @@ function showOutput(text) {
 function clearOutput() {
   document.getElementById('output').textContent = '';
 }
+
+function showError(message) {
+  alert(message);
+  console.error(message);
+}
