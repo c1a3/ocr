@@ -18,7 +18,6 @@ This project provides a lightweight browser-based application for converting ima
 ## Installation
 
 ### Prerequisites
-- npm latest version (9.6.7)
 - Tesseract OCR (install instructions: [Tesseract GitHub](https://github.com/tesseract-ocr/tesseract#installing-tesseract))
 
 ### Steps
