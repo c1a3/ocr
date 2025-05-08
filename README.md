@@ -23,20 +23,15 @@ This project provides a lightweight browser-based application for converting ima
 
 ### Steps
 
-1. Installing npm:
-   ```bash
-   sudo dnf install npm
-   ```
-
-2. Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/c1a3/ocr.git
    cd ocr
    ```
 
-3. Ensure Tesseract is installed and added to your system PATH:
+2. Ensure Tesseract is installed and added to your system PATH:
    - Windows: Download and install from [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
-   - Linux: `npm install tesseract.js`
+   - Linux: `sudo dnf install tesseract`
    - macOS: `brew install tesseract`
 
 
