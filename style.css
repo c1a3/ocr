@@ -25,3 +25,17 @@ input[type="file"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+#progress {
+  margin: 10px 0;
+  color: #555;
+  text-align: center;
+}
+#output {
+  white-space: pre-wrap;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 100px;
+  background: #fafafa;
+}
