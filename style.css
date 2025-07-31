@@ -39,3 +39,16 @@ input[type="file"] {
   min-height: 100px;
   background: #fafafa;
 }
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
