@@ -18,3 +18,4 @@ if (content.items.length > 0) {
       canvas.width = viewport.width;
       canvas.height = viewport.height;
       const context = canvas.getContext('2d');
+ 
