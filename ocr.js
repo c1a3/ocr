@@ -9,3 +9,12 @@ for (let i = 1; i <= pdf.numPages; i++) {
     setProgress(`Processing page ${i} of ${pdf.numPages}...`);
     const page = await pdf.getPage(i);
     const content = await page.getTextContent();
+ 
+if (content.items.length > 0) {
+      text += content.items.map(item => item.str).join(' ') + '\n';
+    } else {
+      const viewport = page.getViewport({ scale: 1.0 });
+      const canvas = document.createElement('canvas');
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+      const context = canvas.getContext('2d');
