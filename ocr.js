@@ -26,7 +26,8 @@ if (content.items.length > 0) {
       });
       text += ocrText + '\n';
     }
-}
+  }
   
   return text;
+}
  
