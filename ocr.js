@@ -18,8 +18,7 @@ if (content.items.length > 0) {
       canvas.width = viewport.width;
       canvas.height = viewport.height;
       const context = canvas.getContext('2d');
-
-    
+  
       await page.render({ canvasContext: context, viewport }).promise;
       const imageData = canvas.toDataURL('image/png');
       const { data: { text: ocrText } } = await Tesseract.recognize(imageData, 'eng', {
