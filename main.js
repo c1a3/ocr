@@ -5,7 +5,7 @@
   if (!file) {
     showError('Please select a file.');
     return;
-  } */ 
+  } */
 
   setProgress('Processing...');
   clearOutput();
