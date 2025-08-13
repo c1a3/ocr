@@ -37,11 +37,11 @@ This project provides a lightweight browser-based application for converting ima
 
 ```
 ocr/
-├── main.js      # 
-├── ocr.js       #
-├── utils.js     # 
-├── style.css    #
-├── index.html   #
+├── main.js      # main struture
+├── ocr.js       # OCR functions
+├── utils.js     # utils
+├── style.css    # CSS styling
+├── index.html   # website HTML
 └── README.md    # This file
 ```
 
