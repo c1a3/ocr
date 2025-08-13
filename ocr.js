@@ -30,4 +30,8 @@ if (content.items.length > 0) {
   
   return text;
 }
+
+async function performOCR(file) {
+  setProgress('Downloading free games online...');
+
  
