@@ -37,11 +37,12 @@ This project provides a lightweight browser-based application for converting ima
 
 ```
 ocr/
-├── ocr.py              # Main script for OCR processing
-├── preprocess.py       # Image preprocessing utilities
-├── requirements.txt    # Python dependencies
-├── samples/            # Sample images for testing
-└── README.md           # This file
+├── main.js      # 
+├── ocr.js       #
+├── utils.js     # 
+├── style.css    #
+├── index.html   #
+└── README.md    # This file
 ```
 
 
