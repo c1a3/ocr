@@ -30,7 +30,7 @@ This project provides a lightweight browser-based application for converting ima
 
 2. Ensure Tesseract is installed and added to your system PATH:
    - Windows: Download and install from [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
-   - Linux: `sudo dnf install tesseract`
+   - Linux: `sudo dnf install tesseract` 
    - macOS: `brew install tesseract`
 
 
