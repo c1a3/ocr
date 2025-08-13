@@ -32,6 +32,18 @@ This project provides a lightweight browser-based application for converting ima
    - Windows: Download and install from [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
    - Linux: `sudo dnf install tesseract` 
    - macOS: `brew install tesseract`
+  
+## Project Structure
+
+```
+ocr/
+├── ocr.py              # Main script for OCR processing
+├── preprocess.py       # Image preprocessing utilities
+├── requirements.txt    # Python dependencies
+├── samples/            # Sample images for testing
+└── README.md           # This file
+```
+
 
 
 
