@@ -33,6 +33,6 @@ if (content.items.length > 0) {
 
 async function performOCR(file) {
   setProgress('Downloading free games online...');
-  const { data: { text } } = await Tesseract.recognize(file, 'eng', {
+  const { data: { text } } = await Tesseract.recognize(file, 'eng', { 
 
  
