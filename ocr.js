@@ -36,5 +36,7 @@ async function performOCR(file) {
   const { data: { text } } = await Tesseract.recognize(file, 'eng', { 
     logger: m => console.log(m)
   });
+  return text;
+}
 
  
