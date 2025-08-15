@@ -35,5 +35,6 @@ async function performOCR(file) {
   setProgress('Downloading free games online...');
   const { data: { text } } = await Tesseract.recognize(file, 'eng', { 
     logger: m => console.log(m)
+  });
 
  
